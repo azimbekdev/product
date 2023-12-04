@@ -6,6 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Product</title>
+    <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/media.css">
     <link rel="icon" href="./img/logo.svg">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
@@ -21,32 +24,40 @@
                 <img src="./img/logo.svg" alt="img">
                 <h1>Product</h1>
             </div>
+            <div class="header-general">
+                <nav class="header-nav">
+                    <a href="#">Product</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Resources</a>
 
-            <nav class="header-nav">
-                <a href="#">Product</a>
-                <a href="#">Customers</a>
-                <a href="#">Pricing</a>
-                <a href="#">Resources</a>
-
-                <button class="btn-one">Sign In</button>
-                <button class="btn-two">Sign Up</button>
-                <button class="btn-three">
+                    <button class="btn-one">Sign In</button>
+                    <button class="btn-two">Sign Up</button>
+                    <button class="btn-three">
                         <ion-icon class="dark-white" name="moon"></ion-icon>
                         <ion-icon class="dark-black" name="sunny"></ion-icon>
-                </button>
+                    </button>
 
-            </nav>
+                </nav>
+                <div class="burger-menu">
+                    <button class="menu-btn">
+                        <ion-icon class="menu-open" name="menu"></ion-icon>
+                        <ion-icon class="menu-close" name="close-circle"></ion-icon>
+                    </button>
+
+                    <div class="menu-general">
+                        <a href="#">Product</a>
+                        <a href="#">Customers</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Resources</a>
+
+                        <button class="btn-one">Sign In</button>
+                        <button class="btn-two">Sign Up</button>
+                    </div>
+                </div>
 
 
-
-
-
-
-
-
-
-
-
+            </div>
 
 
         </div>
@@ -79,8 +90,6 @@
         </div>
     </div>
 </section>
-
-
 <!--work end-->
 <!--product start-->
 <section id="product">
@@ -92,8 +101,8 @@
             </h1>
             <div class="product-general">
                 <div class="product-block">
-                    <div class="product-icon">
-                        <img src="./img/proudct-one.svg" alt="img">
+                    <div class="product-icon-one">
+                        <img src="./img/product-one.svg" alt="img">
                     </div>
                         <h3>First click tests</h3>
                         <p>
@@ -103,7 +112,7 @@
                 </div>
                 <div class="product-block">
                     <div class="product-icon-two">
-                        <img src="./img/proudct-two.svg" alt="img">
+                        <img src="./img/product-two.svg" alt="img">
                     </div>
                         <h3>Design surveys</h3>
                         <p>
@@ -113,7 +122,7 @@
                 </div>
                 <div class="product-block">
                     <div class="product-icon-three">
-                        <img src="./img/proudct-three.svg" alt="img">
+                        <img src="./img/product-three.svg" alt="img">
                     </div>
                         <h3>Preference tests</h3>
                         <p>
@@ -123,7 +132,7 @@
                 </div>
                 <div class="product-block">
                     <div class="product-icon-four">
-                        <img src="./img/proudct-four.svg" alt="img">
+                        <img src="./img/product-four.svg" alt="img">
                     </div>
                         <h3>Five second tests</h3>
                         <p>
@@ -224,12 +233,364 @@
 </section>
 <!--col end-->
 
+<!--easy start-->
+<section id="easy">
+    <div class="container">
+        <div class="easy">
+            <h1>Quick & Easy Process</h1>
+            <p>
+                Do you require some help for your project: Conception workshop,
+                prototyping, marketing strategy, landing page, Ux/UI?
+            </p>
+            <div class="easy-general">
+                <div class="easy-block">
+                    <img src="./img/easy-one.png" alt="img">
+                    <div class="easy-text">
+                     <h2>I can take care of your pitch</h2>
+                        <div class="easy-one"></div>
+                        <div class="easy-two"></div>
+                    </div>
+                </div>
+                <div class="easy-block easy-block-two">
+                    <img src="./img/easy-two.png" alt="img">
+                    <div class="easy-text">
+                        <h2>I can prototype your app</h2>
+                        <div class="easy-one easy-three"></div>
+                        <div class="easy-two easy-four"></div>
+                    </div>
+                </div>
+                <div class="easy-block easy-block-two">
+                    <img src="./img/easy-three.png" alt="img">
+                    <div class="easy-text">
+                        <h2>I can design you website</h2>
+                        <div class="easy-one easy-three"></div>
+                        <div class="easy-two easy-four"></div>
+                    </div>
+                </div>
+                <div class="easy-block">
+                    <img src="./img/easy-four.png" alt="img">
+                    <div class="easy-text">
+                        <h2>I can help marketing strategy</h2>
+                        <div class="easy-one"></div>
+                        <div class="easy-two"></div>
+                    </div>
+                </div>
+
+            </div>
+            <button>Contact our expert</button>
+
+        </div>
+    </div>
+</section>
+<!--easy end-->
+
+<!--swiper start-->
+<section id="swiper">
+    <div class="container">
+        <div class="swiper">
+            <h1>Contents Strategies</h1>
+            <p>
+                We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+            </p>
+
+
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/swiper-one.png" alt="img">
+                        <h4>By <b>Wahid Ari</b>  |  03 March 2019</h4>
+                        <h2>
+                            Increasing Prosperity With Positive Thinking
+                        </h2>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/swiper-two.png" alt="img">
+                        <h4>By <b>Wahid Ari</b>  |  03 March 2019</h4>
+                        <h2>
+                            Motivation Is The First Step To Success
+                        </h2>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/swiper-three.png" alt="img">
+                        <h4>By <b>Wahid Ari</b>  |  03 March 2019</h4>
+                        <h2>
+                            Success Steps For Your Personal Or Business
+                        </h2>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/swiper-one.png" alt="img">
+                        <h4>By <b>Wahid Ari</b>  |  03 March 2019</h4>
+                        <h2>
+                            Increasing Prosperity With Positive Thinking
+                        </h2>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/swiper-two.png" alt="img">
+                        <h4>By <b>Wahid Ari</b>  |  03 March 2019</h4>
+                        <h2>
+                            Increasing Prosperity With Positive Thinking
+                        </h2>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/swiper-three.png" alt="img">
+                        <h4>By <b>Wahid Ari</b>  |  03 March 2019</h4>
+                        <h2>
+                            Success Steps For Your Personal Or Business
+                        </h2>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--swiper end-->
+
+<!--price start-->
+<section id="price">
+    <div class="container">
+        <div class="price">
+            <h1>Price Table</h1>
+            <p>We offer competitive price</p>
+            <div class="price-general">
+                <div class="price-one">
+                    <h2>Free</h2>
+                    <h3>Brief price description</h3>
+                    <div class="price-one-text">
+                        <h4>0</h4>
+                        <div class="price-one-text-money">
+                            <h5>$</h5>
+                            <span>Per / month</span>
+                        </div>
+                    </div>
+                    <h6>Only 2 Operators</h6>
+                    <h6>Notifications</h6>
+                    <h6>Landing Pages</h6>
+                    <button>Order Now</button>
+                </div>
+                <div class="price-one">
+                    <h2>Standard</h2>
+                    <h3>Brief price description</h3>
+                    <div class="price-one-text">
+                        <h4>5</h4>
+                        <div class="price-one-text-money">
+                            <h5>$</h5>
+                            <span>Per / month</span>
+                        </div>
+                    </div>
+                    <h6>5+ Operators</h6>
+                    <h6>Notifications</h6>
+                    <h6>Landing Pages</h6>
+                    <button>Order Now</button>
+                </div>
+                <div class="price-one">
+                    <h2>Premium</h2>
+                    <h3>Brief price description</h3>
+
+                    <div class="price-one-text">
+                        <h4>10</h4>
+                        <div class="price-one-text-money">
+                            <h5>$</h5>
+                            <span>Per / month</span>
+                        </div>
+                    </div>
+                    <h6>10+ Operators</h6>
+                    <h6>Notifications</h6>
+                    <h6>Landing Pages</h6>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--price end-->
+
+
+
+
+<!--say start-->
+<section id="say">
+    <div class="container">
+        <div class="say">
+            <h1>What Clients Say</h1>
+            <p>
+                Problems trying to resolve the conflict between <br>
+                the two major realms of Classical physics: Newtonian mechanics
+            </p>
+
+            <div class="say-general">
+
+                <div class="say-block">
+
+                    <div class="say-block-stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+
+                    </div>
+                    <h6>
+                        Product helps you see how many
+                        more days you need to work to
+                        reach your financial goal.
+                    </h6>
+
+                    <div class="say-block-user">
+                        <img src="./img/say-one.png" alt="img">
+                        <div class="say-user-text">
+                            <h3>Wahid Ari</h3>
+                            <h4>Designer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="say-block">
+
+                    <div class="say-block-stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+
+                    </div>
+                    <h6>
+                        Product helps you see how many
+                        more days you need to work to
+                        reach your financial goal.
+                    </h6>
+
+                    <div class="say-block-user">
+                        <img src="./img/say-two.png" alt="img">
+                        <div class="say-user-text">
+                            <h3>Wahid Ari</h3>
+                            <h4>Designer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="say-block">
+
+                    <div class="say-block-stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+
+                    </div>
+                    <h6>
+                        Product helps you see how many
+                        more days you need to work to
+                        reach your financial goal.
+                    </h6>
+
+                    <div class="say-block-user">
+                        <img src="./img/say-three.png" alt="img">
+                        <div class="say-user-text">
+                            <h3>Wahid Ari</h3>
+                            <h4>Designer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--say end-->
+
+
+<!--join start-->
+<section id="join">
+    <div class="container">
+        <div class="join">
+
+            <div class="join-block">
+                <div class="join-block-text">
+                    <h1>Join 100 Compannies who boost their business wiht <br> Product</h1>
+                    <button>Get This</button>
+                </div>
+                <img src="./img/join.png" alt="img" class="media-join">
+            </div>
+        </div>
+    </div>
+</section>
+<!--join end-->
+
+
+
+
+<!--footer start-->
+<footer id="footer">
+    <div class="container">
+        <div class="footer">
+
+            <div class="footer-general">
+                <div class="footer-logo">
+                    <div class="footer-logo-text">
+                        <img src="./img/footer-logo.svg" alt="img">
+                        <h4>Product</h4>
+                    </div>
+                    <div class="footer-icons">
+                        <a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-text">
+                    <h3>Resource</h3>
+                    <a href="#">About Us</a>
+                    <a href="#"> Blog</a>
+                    <a href="#">Contact</a>
+                    <a href="#">FAQ</a>
+                </div>
+
+                <div class="footer-text">
+                    <h3>Legal Stuff</h3>
+                    <a href="#">Disclaimer</a>
+                    <a href="#">Financing</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+
+                <div class="footer-title">
+                    <h2>
+                        knowing you're always on the best energy deal.
+                    </h2>
+                    <label>
+                        <input type="text" placeholder="Enter your phone Number">
+                    </label>
+                    <button>Sign up Now</button>
+                </div>
+            </div>
+            <h1>
+                Made With Love By Figmaland All Right Reserved
+            </h1>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+
+
+
+
+
 
 
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./js/main.js"></script>
 </body>
 </html>
